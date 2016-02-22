@@ -15,7 +15,7 @@ h1 {
 }
 
 a { 
-	color: #ffffff;
+	color: #4a2eff;
 	text-decoration: none;
 }
 
@@ -28,6 +28,10 @@ a {
 .name { 
 	margin: 0;
 	line-height: 1.5em;
+
+}
+.name a {
+	color: white;
 
 }
 
