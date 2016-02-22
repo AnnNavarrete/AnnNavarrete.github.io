@@ -1,6 +1,60 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
 body {
-	background-color: #f1f8fe;
+	line-height: 5;
+	color: #000000;
+	width: 100%
+
 }
-body li {
-	padding-bottom: 10px;
+
+h1 {
+	margin-top: 0;
+
 }
+
+a { 
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ------- Navigation ------- */
+
+.name { 
+	margin: 0;
+	line-height: 1.5em;
+
+}
+
+/* ---- Layout Containers ---- */
+
+.container {
+	width: 100%;
+	margin: 0, auto;
+	
+}
+
+.main-header {
+	text-align: center;
+	background-color: #7ebbec;
+	color:#ffffff;
+	padding: 0.25em 0;
+	
+
+}
+
+.main-footer {
+	text-align: center;
+	background-color: #7ebbec;
+	color:#ffffff;
+	padding: 0.25em 0;
+
+}
+
+/* ---- Page Elements ---- */
+
