@@ -2,12 +2,13 @@
   Base Element Styles
 ==================================== */
 
+
 body {
 	line-height: 5;
 	color: #000000;
 	width: 100%
+	}
 
-}
 
 h1 {
 	margin-top: 0;
@@ -32,15 +33,19 @@ a {
 }
 .name a {
 	color: white;
-
 }
+
+.main-nav li a {
+	color: white;
+}
+
+
 
 /* ---- Layout Containers ---- */
 
 .container {
-	width: 100%;
-	margin: 0, auto;
-	
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 .main-header {
@@ -48,8 +53,6 @@ a {
 	background-color: #7ebbec;
 	color:#ffffff;
 	padding: 0.25em 0;
-	
-
 }
 
 .main-footer {
@@ -61,4 +64,32 @@ a {
 }
 
 /* ---- Page Elements ---- */
+
+header .container li {
+	list-style: none;
+	text-align: center;
+}
+
+
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+header .container {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0, auto;
+}
+}
+
+
+
+
+
+
+
+
 
