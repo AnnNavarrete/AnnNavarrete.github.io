@@ -7,18 +7,19 @@ body {
 	line-height: 5;
 	color: #000000;
 	width: 100%
-	}
+}
 
 
 h1 {
 	margin-top: 0;
-
 }
 
 a { 
 	color: #4a2eff;
 	text-decoration: none;
 }
+
+
 
 /* ================================= 
   Base Layout Styles
@@ -39,11 +40,21 @@ a {
 	color: white;
 }
 
+.resize {
+    width: 400px;
+    height: auto;
+}
 
+.resize {
+    width: 300px;
+    height: auto;
+}
 
 /* ---- Layout Containers ---- */
 
 .container {
+	width: 100%;
+	max-width: 1000px;
 	padding-left: 1em;
 	padding-right: 1em;
 }
@@ -77,13 +88,8 @@ header .container li {
   Media Queries
 ==================================== */
 
-@media (min-width: 769px) {
-header .container {
-	width: 100%;
-	max-width: 1000px;
-	margin: 0, auto;
-}
-}
+
+
 
 
 
