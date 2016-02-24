@@ -2,17 +2,19 @@
   Base Element Styles
 ==================================== */
 
+* {
+	box-sizing: border-box;
+}
+	
+
+}
 
 body {
-	line-height: 5;
+	line-height: 1.6;
 	color: #000000;
-	width: 100%
+
 }
 
-
-h1 {
-	margin-top: 0;
-}
 
 a { 
 	color: #4a2eff;
@@ -27,59 +29,33 @@ a {
 
 /* ------- Navigation ------- */
 
-.name { 
-	margin: 0;
-	line-height: 1.5em;
 
-}
-.name a {
-	color: white;
-}
-
-.main-nav li a {
-	color: white;
-}
-
-.resize {
-    width: 400px;
-    height: auto;
-}
-
-.resize {
-    width: 300px;
-    height: auto;
-}
 
 /* ---- Layout Containers ---- */
 
 .container {
-	width: 100%;
-	max-width: 1000px;
 	padding-left: 1em;
 	padding-right: 1em;
+	
 }
 
 .main-header {
 	text-align: center;
 	background-color: #7ebbec;
 	color:#ffffff;
-	padding: 0.25em 0;
+	padding-top: 1em;
+
 }
 
 .main-footer {
 	text-align: center;
 	background-color: #7ebbec;
 	color:#ffffff;
-	padding: 0.25em 0;
+	padding-bottom: 1em;
 
 }
 
 /* ---- Page Elements ---- */
-
-header .container li {
-	list-style: none;
-	text-align: center;
-}
 
 
 
@@ -88,7 +64,16 @@ header .container li {
   Media Queries
 ==================================== */
 
+@media (min-width: 769px) {
+	.container {
+		width: 100%;
+		max-width: 1000px;	
+		margin: 0 auto;
+	}
 
+
+
+}
 
 
 
