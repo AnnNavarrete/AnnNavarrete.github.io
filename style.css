@@ -15,7 +15,6 @@ body {
 
 }
 
-
 a { 
 	color: #4a2eff;
 	text-decoration: none;
@@ -57,7 +56,17 @@ a {
 
 /* ---- Page Elements ---- */
 
+ol, ul {
+    margin: 0;
+    margin-left: 2em;
+    padding: 0;
+    list-style: circle;
+}
 
+.menu-list {
+	list-style: none;
+	margin: 0;
+}
 
 
 /* ================================= 
@@ -70,8 +79,6 @@ a {
 		max-width: 1000px;	
 		margin: 0 auto;
 	}
-
-
 
 }
 
